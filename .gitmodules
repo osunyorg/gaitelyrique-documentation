@@ -4,3 +4,4 @@
 [submodule "themes/gaitelyrique-www"]
 	path = themes/gaitelyrique-www
 	url = https://github.com/osunyorg/gaitelyrique-www
+  branch = rework
