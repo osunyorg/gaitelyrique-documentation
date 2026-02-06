@@ -19,20 +19,14 @@ contents:
         value: >-
           Comment tester ?
         heading: 2
+
     data:
       layout: no_background
       text: >-
         <p>Vous pouvez à tout moment appuyer sur CTRL + W pour passer d'une largeur partielle à une pleine largeur.</p>
 
-      notes: >-
-        
 
 
-      alt: >-
-        
-
-      credit: >-
-        
 
 
 
