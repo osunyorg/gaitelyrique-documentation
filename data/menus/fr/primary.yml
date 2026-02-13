@@ -2,17 +2,21 @@
 title: Menu principal
 items:
 - title: Agenda
+  slug: agenda
   target: "/programmation/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
 - title: Blocs
+  slug: blocs
   target: "/les-blocs/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/les-blocs"
   file: content/fr/pages/les-blocs/_index.html
 
