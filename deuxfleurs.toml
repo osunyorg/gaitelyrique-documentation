@@ -14,3 +14,19 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
 
+[[redirects]]
+from = "/les-blocs/le-bloc-de-liste-devenements/index.html"
+to = "/les-blocs/le-bloc-agenda/"
+
+[[redirects]]
+from = "/agenda/index.html"
+to = "/programmation/"
+
+[[redirects]]
+from = "/agenda/archives/index.html"
+to = "/programmation/archives/"
+
+[[redirects]]
+from = "/programmation/2025/le-docu-klub-arte/index.html"
+to = "/programmation/2027/le-docu-klub-arte/"
+
