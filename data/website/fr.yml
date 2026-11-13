@@ -58,7 +58,6 @@ contents:
 
       layout: grid
       description: >-
-        <p>du mardi au dimanche</p>
 
       title_link: ""
       exhibitions:
@@ -68,7 +67,13 @@ contents:
           file: "content/fr/exhibitions/2026-10-15-finally-something-good.html"
           name: >-
             Finally, Something Good.
+        - permalink: "/expositions/2026-10-15-finally-something-good/"
+          path: "/exhibitions/2026-10-15-finally-something-good"
+          slug: "finally-something-good"
+          file: "content/fr/exhibitions/2026-10-15-finally-something-good.html"
+          name: >-
+            Finally, Something Good.
 
-      quantity: 1
+      quantity: 2
 
 
