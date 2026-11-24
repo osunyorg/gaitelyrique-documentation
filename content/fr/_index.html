@@ -10,7 +10,7 @@ header_text: >-
 url: "/"
 slug: ""
 date: 2024-10-21T16:57:27+02:00
-lastmod: 2026-02-03T14:56:22+01:00
+lastmod: 2026-11-24T11:02:26+01:00
 meta:
   hugo:
     permalink: "/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2024-10-21T16:57:27+02:00
-    updated_at: 2026-02-03T14:56:22+01:00
+    updated_at: 2026-11-24T11:02:26+01:00
     published_at: 2024-10-21T16:57:27+02:00
 search:
   id: "60e7e050-f1aa-43ff-8eb1-a725470f3264"
@@ -32,7 +32,7 @@ search:
   summary: >-
     <p>Documentation</p>
   body: >-
-    <p>  <br>Vous trouverez ici les usages des blocs et des exemples de mises en page. </p>  <p> Exemples d'événement </p>
+    <p>La Gaîté reste ouverte pendant les vacances !  <br>   <br>La fin d'année... meilleur moment pour s'accorder du temps à soi. Pendant les vacances, prenez soin de vous en cours de yoga, partagez vos tracas avec notre psychologue, créez en toute tranquillité au Studio 13/16, mettez vos idées au clair avec l'exposition Finally, Something Good. Et prélassez-vous avec une bonne boisson chaude au bar ! </p>  <p> Transformez vos préoccupations en envie d'agir  <br> Prenez soin de vous  <br>  </p>  <p>Pingthérapie + distrib + yoga</p>  <p> Créez sans pression  </p>
 
 breadcrumbs:
   - title: >-
@@ -41,7 +41,7 @@ breadcrumbs:
 design:
   full_width: true
   toc:
-    present: false
+    present: true
     offcanvas: true
 
 
@@ -122,103 +122,80 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 5
+  seconds: 22
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: title
+    title: >-
+      La Gaîté reste ouverte pendant les vacances !
+    slug: >-
+      la-gaite-reste-ouverte-pendant-les-vacances
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          La Gaîté reste ouverte pendant les vacances !
+        heading: 2
+
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
 
 
     ranks:
-      base: 2
+      base: 3
     top:
       active: false
 
     data:
       layout: no_background
       text: >-
-        <p>Vous trouverez ici les usages des blocs et des exemples de mises en page. </p>
+        <p>La fin d'année... meilleur moment pour s'accorder du temps à soi. Pendant les vacances, prenez soin de vous en cours de yoga, partagez vos tracas avec notre psychologue, créez en toute tranquillité au Studio 13/16, mettez vos idées au clair avec l'exposition Finally, Something Good. Et prélassez-vous avec une bonne boisson chaude au bar ! </p>
 
 
 
   - kind: block
-    template: pages
-
-
-    ranks:
-      base: 2
-      children: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Les blocs
-        heading: 2
-        link: "/les-blocs/"
-
-    data:
-      page:
-        permalink: "/les-blocs/"
-        path: "/pages/les-blocs"
-        slug: "les-blocs"
-        file: "content/fr/pages/les-blocs/_index.html"
-      options:
-        image: true
-        subtitle: true
-        categories: false
-        main_summary: true
-        summary: true
-
-      layout: cards
-      pages:
-        - permalink: "/les-blocs/le-bloc-agenda/"
-          path: "/pages/les-blocs/le-bloc-agenda"
-          slug: "le-bloc-agenda"
-          file: "content/fr/pages/les-blocs/le-bloc-agenda/_index.html"
-          name: >-
-            Le bloc Agenda
-        - permalink: "/les-blocs/le-bloc-liens/"
-          path: "/pages/les-blocs/le-bloc-liens"
-          slug: "le-bloc-liens"
-          file: "content/fr/pages/les-blocs/le-bloc-liens/_index.html"
-          name: >-
-            Le bloc Liens
-        - permalink: "/les-blocs/le-bloc-fonctionnalites/"
-          path: "/pages/les-blocs/le-bloc-fonctionnalites"
-          slug: "le-bloc-fonctionnalites"
-          file: "content/fr/pages/les-blocs/le-bloc-fonctionnalites/_index.html"
-          name: >-
-            Le bloc fonctionnalités
-
-      quantity: 3
-
-
-  - kind: block
-    template: agenda
+    template: title
     title: >-
-      Exemples d'événement
+      Transformez vos préoccupations en envie d'agir
     slug: >-
-      exemples-d-evenement
+      transformez-vos-preoccupations-en-envie-d-agir
     ranks:
       base: 2
       self: 2
-      children: 3
     top:
       active: true
       title: 
         value: >-
-          Exemples d'événement
+          Transformez vos préoccupations en envie d'agir
         heading: 2
 
     data:
+      layout: classic
+
+
+  - kind: block
+    template: exhibitions
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
       mode: selection
-      kinds:
-        parent: false
-        child: true
-        recurring: true
       options:
-        categories: true
+        categories: false
         dates: true
         image: true
         subtitle: true
@@ -229,13 +206,92 @@ contents:
 
 
       title_link: ""
-      events:
-        - permalink: "/programmation/2028/un-autre-test-devenement/"
-          path: "/events/2028/10/10-un-autre-test-devenement"
-          slug: "un-autre-test-devenement"
-          file: "content/fr/events/2028/10/10-un-autre-test-devenement.html"
+      exhibitions:
+        - permalink: "/expositions/2026-10-15-finally-something-good/"
+          path: "/exhibitions/2026-10-15-finally-something-good"
+          slug: "finally-something-good"
+          file: "content/fr/exhibitions/2026-10-15-finally-something-good.html"
           name: >-
-            Un exemple d'événement simple
+            Finally, Something Good.
+
+      quantity: 1
+
+  - kind: block
+    template: title
+    title: >-
+      Prenez soin de vous
+    slug: >-
+      prenez-soin-de-vous
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Prenez soin de vous
+        heading: 2
+
+    data:
+      layout: classic
+
+
+
+  - kind: block
+    template: title
+    title: >-
+      Créez sans pression
+    slug: >-
+      creez-sans-pression
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Créez sans pression
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: agenda
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: grid
+
+
+      title_link: "/programmation/"
+      events:
+        - permalink: "/programmation/2027/design-des-communs-numeriques/"
+          path: "/events/2027/06/03-design-des-communs-numeriques"
+          slug: "design-des-communs-numeriques"
+          file: "content/fr/events/2027/06/03-design-des-communs-numeriques.html"
+          name: >-
+            Design des communs numériques
 
       quantity: 1
 
